@@ -38,7 +38,7 @@ sbp_ord = sidebarPanel(
   dim_and_down("_ord")
 )
 ################################################################################
-ordpage = fluidPage(theme = shinytheme("cosmo"),
+ordpage = fluidPage(theme = shinythemes::shinytheme("cosmo"),
   headerPanel("Ordination Plot"),
   fluidRow(sbp_ord,
     column(width = 8,
